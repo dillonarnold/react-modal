@@ -11,7 +11,7 @@ const propTypes = {
 const ModalFooter = ({ onClose, closeButtonRef }) => {
   return (
     <footer className="footer">
-      <button className="footer_close" onClick={onClose} ref={closeButtonRef}>
+      <button className="footer_close" type="button" onClick={onClose} ref={closeButtonRef}>
         Close
       </button>
     </footer>

@@ -21,6 +21,7 @@ exports[`Modal component should render properly 1`] = `
           Object {
             "current": <button
               class="footer_close"
+              type="button"
           >
               Close
           </button>,
@@ -34,6 +35,7 @@ exports[`Modal component should render properly 1`] = `
           <button
             className="footer_close"
             onClick={[Function]}
+            type="button"
           >
             Close
           </button>
