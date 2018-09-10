@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component should render properly 1`] = `
+<Modal
+  isShown={true}
+  onClose={[Function]}
+>
+  <div
+    className="modal-background modal--hide"
+    onClick={[Function]}
+  >
+    <div
+      className="modal"
+      role="dialog"
+    >
+      <div
+        className="content"
+      />
+      <ModalFooter
+        closeButtonRef={
+          Object {
+            "current": <button
+              class="footer_close"
+          >
+              Close
+          </button>,
+          }
+        }
+        onClose={[Function]}
+      >
+        <footer
+          className="footer"
+        >
+          <button
+            className="footer_close"
+            onClick={[Function]}
+          >
+            Close
+          </button>
+        </footer>
+      </ModalFooter>
+    </div>
+  </div>
+</Modal>
+`;
